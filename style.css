@@ -1,0 +1,78 @@
+:root {
+    --white-color: #f2f2f2;
+    --turquise: rgb(51, 146, 153);
+    --black: #2e2e2e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--turquise);
+    position: relative;
+}
+
+.back {
+    width: 230px;
+    height: 250px;
+    background-color: var(--white-color);
+    position: absolute;
+    border-radius: 5px;
+    inset: 30% 42%;
+}
+
+.back .ski-code {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back .ski-code p {
+    width: 54%;
+    height: 80%;
+    border: 3px solid var(--turquise);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    color: var(--turquise);
+    box-shadow: 0 0 3px 1px var(--turquise);
+}
+
+.key-name {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    text-align: center;
+    color: var(--turquise);
+    font-size: 3rem;
+}
+
+.back .left {
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    color: var(--black);    
+    text-align: center;
+    left: 0;
+    top: 90%;
+}
+
+.back .right {
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    color: var(--black);
+    text-align: center;
+    right: 0;
+    top: 90%;
+}
